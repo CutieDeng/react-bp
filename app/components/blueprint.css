@@ -1,0 +1,66 @@
+
+.ue5-node {
+    background-color: #1a1a1a;
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .node-header {
+    background-color: #2a2a2a;
+    padding: 8px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .node-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .node-subtitle {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .node-content {
+    padding: 10px;
+  }
+  
+  .node-port {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  .port-label {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+  
+  .react-flow__handle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffd700;
+    border: 2px solid #1a1a1a;
+  }
+  
+  .react-flow__handle-left {
+    left: -6px;
+  }
+  
+  .react-flow__handle-right {
+    right: -6px;
+  }
+  
+  .node-inputs .node-port {
+    justify-content: flex-start;
+  }
+  
+  .node-outputs .node-port {
+    justify-content: flex-end;
+  }

@@ -1,0 +1,100 @@
+.blueprint-editor {
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+  }
+  
+  .ue5-node {
+    background-color: #1a1a1a;
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .node-header {
+    background-color: #2a2a2a;
+    padding: 8px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .node-title {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .node-subtitle {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  .node-content {
+    padding: 10px;
+    display: flex;
+  }
+  
+  .node-inputs, .node-outputs {
+    flex: 1;
+  }
+  
+  .node-port {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    position: relative;
+  }
+  
+  .port-label {
+    font-size: 12px;
+    margin: 0 5px;
+    flex: 1;
+  }
+  
+  .react-flow__handle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffd700;
+  }
+  
+  .react-flow__handle-left {
+    left: -5px;
+  }
+  
+  .react-flow__handle-right {
+    right: -5px;
+  }
+  
+  .node-inputs .node-port {
+    justify-content: flex-start;
+    padding-left: 15px;
+  }
+  
+  .node-outputs .node-port {
+    justify-content: flex-end;
+    padding-right: 15px;
+  }
+  
+  .react-flow__edge-path {
+    stroke: #ffd700;
+    stroke-width: 2;
+  }
+  
+  .react-flow__edge.selected .react-flow__edge-path {
+    stroke: #ff0000;
+  }
+  
+  .react-flow__node.selected {
+    box-shadow: 0 0 0 2px #ff0000;
+  }
+  
+  .node-inputs .port-label {
+    text-align: left;
+  }
+  
+  .node-outputs .port-label {
+    text-align: right;
+  }
